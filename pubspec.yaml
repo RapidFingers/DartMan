@@ -1,0 +1,12 @@
+name: DartMan
+description: A sample command-line application.
+version: 0.0.1
+#homepage: https://www.example.com
+#author: Grabli66 <email@example.com>
+
+environment:
+  sdk: '>=2.0.0-dev.22.0'
+
+dependencies:
+  analyzer: any
+  args: any

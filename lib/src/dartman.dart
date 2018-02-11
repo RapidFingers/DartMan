@@ -41,7 +41,7 @@ class Dartman {
           new CodeGenerator(codeFile, outDir, hasGdscript: hasGdscript);
       await generator.generate();
     } on ParseException catch (e) {
-      print(e);
+      print(e.message);
     } on GeneratorException catch (e) {
       print(e.message);
     } catch (e) {
